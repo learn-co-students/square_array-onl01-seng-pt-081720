@@ -3,7 +3,7 @@ def square_array(array)
   array_squarred = []
   array.each do |number|
     number = number^2
-    array_squarred.push[number]
+    array_squarred.push(number)
   end
   return array_squarred
 end
